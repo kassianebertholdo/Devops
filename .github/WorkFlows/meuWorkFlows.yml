@@ -1,0 +1,13 @@
+name: Construindo e testando
+    on:
+      push:
+         branches:
+          -main
+jobs:
+   build-and test:
+   runs-on: ubuntu-latest   
+    steps :
+      -name : primeiro-passo
+        run: echo " hello word develops"   ]
+       name : segundo-passo
+        run : ls -al  
